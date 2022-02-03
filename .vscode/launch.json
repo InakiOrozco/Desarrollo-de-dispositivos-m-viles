@@ -5,14 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "tarea1",
-            "cwd": "Tarea1\\tarea1",
+            "name": "tarea2",
+            "cwd": "Tarea2\\tarea2",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "tarea1 (profile mode)",
-            "cwd": "Tarea1\\tarea1",
+            "name": "tarea2 (profile mode)",
+            "cwd": "Tarea2\\tarea2",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
