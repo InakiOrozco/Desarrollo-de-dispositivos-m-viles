@@ -13,7 +13,7 @@ class AccountBloc extends Bloc<AccountEvent, AccountState> {
   AccountBloc() : super(AccountInitial()) {
     on<AccountEvent>(_request);
   }
-  final String url =
+  String url =
       "https://api.sheety.co/f386175add37b57b868d5f8c1f25d7e2/hojaDeC%C3%A1lculoSinT%C3%ADtulo/hoja1";
 
   void _request(AccountEvent event, Emitter emmiter) async {
